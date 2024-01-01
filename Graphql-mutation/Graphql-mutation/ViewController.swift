@@ -54,8 +54,13 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        performSegue(withIdentifier: "LauchesSegue", sender: rockets[indexPath.row])
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard segue.identifier == "LauchesSegue" , let vc = segue.destination as? LauchesViewController, let rocket = sender as? RocketsQuaryQuery.Data.Rocket else { return }
+        
+        vc.rocket = rocket
+    }
     
 }

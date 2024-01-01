@@ -21,6 +21,9 @@
 		4A6414C72B41B31700CE7F85 /* rocketsQuery.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4A6414C62B41B31700CE7F85 /* rocketsQuery.graphql */; };
 		4A6414CC2B41B44C00CE7F85 /* SpaceXAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 4A6414CB2B41B44C00CE7F85 /* SpaceXAPI */; };
 		4A6414CE2B41B55800CE7F85 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6414CD2B41B55800CE7F85 /* NetworkService.swift */; };
+		4AFD4D7C2B42BF380074F2B6 /* lauchesQuery.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4AFD4D7B2B42BF380074F2B6 /* lauchesQuery.graphql */; };
+		4AFD4D7E2B42C0D70074F2B6 /* LauchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFD4D7D2B42C0D70074F2B6 /* LauchesViewController.swift */; };
+		4AFD4D802B42C6290074F2B6 /* LaunchFragment.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4AFD4D7F2B42C6290074F2B6 /* LaunchFragment.graphql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		4A6414C62B41B31700CE7F85 /* rocketsQuery.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = rocketsQuery.graphql; sourceTree = "<group>"; };
 		4A6414C92B41B43D00CE7F85 /* SpaceXAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SpaceXAPI; sourceTree = "<group>"; };
 		4A6414CD2B41B55800CE7F85 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		4AFD4D7B2B42BF380074F2B6 /* lauchesQuery.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = lauchesQuery.graphql; sourceTree = "<group>"; };
+		4AFD4D7D2B42C0D70074F2B6 /* LauchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauchesViewController.swift; sourceTree = "<group>"; };
+		4AFD4D7F2B42C6290074F2B6 /* LaunchFragment.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = LaunchFragment.graphql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,7 @@
 				4A6414C32B41B25A00CE7F85 /* GraphQL */,
 				4A64148A2B41AA8C00CE7F85 /* AppDelegate.swift */,
 				4A64148C2B41AA8C00CE7F85 /* SceneDelegate.swift */,
+				4AFD4D7D2B42C0D70074F2B6 /* LauchesViewController.swift */,
 				4A64148E2B41AA8C00CE7F85 /* ViewController.swift */,
 				4A6414902B41AA8C00CE7F85 /* Main.storyboard */,
 				4A6414932B41AA8E00CE7F85 /* Assets.xcassets */,
@@ -147,6 +154,8 @@
 			children = (
 				4A6414C42B41B28B00CE7F85 /* schema.graphqls */,
 				4A6414C62B41B31700CE7F85 /* rocketsQuery.graphql */,
+				4AFD4D7B2B42BF380074F2B6 /* lauchesQuery.graphql */,
+				4AFD4D7F2B42C6290074F2B6 /* LaunchFragment.graphql */,
 			);
 			path = GraphQL;
 			sourceTree = "<group>";
@@ -277,11 +286,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFD4D7C2B42BF380074F2B6 /* lauchesQuery.graphql in Resources */,
 				4A6414C72B41B31700CE7F85 /* rocketsQuery.graphql in Resources */,
 				4A6414C52B41B28B00CE7F85 /* schema.graphqls in Resources */,
 				4A6414972B41AA8E00CE7F85 /* LaunchScreen.storyboard in Resources */,
 				4A6414942B41AA8E00CE7F85 /* Assets.xcassets in Resources */,
 				4A6414922B41AA8C00CE7F85 /* Main.storyboard in Resources */,
+				4AFD4D802B42C6290074F2B6 /* LaunchFragment.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +320,7 @@
 				4A64148F2B41AA8C00CE7F85 /* ViewController.swift in Sources */,
 				4A64148B2B41AA8C00CE7F85 /* AppDelegate.swift in Sources */,
 				4A6414CE2B41B55800CE7F85 /* NetworkService.swift in Sources */,
+				4AFD4D7E2B42C0D70074F2B6 /* LauchesViewController.swift in Sources */,
 				4A64148D2B41AA8C00CE7F85 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
